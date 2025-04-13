@@ -6,6 +6,7 @@ import Step from './Section/Step'
 import Featured from './Section/Featured'
 import Client from './Section/Client'
 import Contract from './Section/Contract'
+import Footer from './Section/Footer'
 
 
 const App = () => {
@@ -18,6 +19,7 @@ const App = () => {
       <Featured />
       <Client />
       <Contract />
+      <Footer />
     </>
   )
 }
