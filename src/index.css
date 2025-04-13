@@ -98,3 +98,30 @@
   -o-border-radius: 16px;
   z-index: -1;
 }
+.clientactive{
+  display: none;
+}
+ .slick-current .clientactive{
+  display: flex;
+}
+.slick-current .clientactiveImg{
+position: relative;
+}
+.slick-current .clientactiveImg::after{
+  position: absolute;
+  content: '';
+  top: -15px;
+  left: -15px;
+  width: 150px;
+  height: 150px;
+  border: 5px solid #FF7420;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.slick-prev, .slick-next {
+  top: 75% !important;
+  right: 100px !important;
+}

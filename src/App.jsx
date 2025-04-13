@@ -4,6 +4,8 @@ import Banner from './Section/Banner'
 import Experience from './Section/Experience'
 import Step from './Section/Step'
 import Featured from './Section/Featured'
+import Client from './Section/Client'
+
 
 const App = () => {
   return (
@@ -13,6 +15,7 @@ const App = () => {
       <Experience />
       <Step />
       <Featured />
+      <Client />
     </>
   )
 }
