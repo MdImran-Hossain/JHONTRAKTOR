@@ -5,6 +5,7 @@ import Experience from './Section/Experience'
 import Step from './Section/Step'
 import Featured from './Section/Featured'
 import Client from './Section/Client'
+import Contract from './Section/Contract'
 
 
 const App = () => {
@@ -16,6 +17,7 @@ const App = () => {
       <Step />
       <Featured />
       <Client />
+      <Contract />
     </>
   )
 }
